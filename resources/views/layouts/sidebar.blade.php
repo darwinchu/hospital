@@ -1,4 +1,4 @@
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<nav class="sidebar sidebar-offcanvas no-print" id="sidebar">
     <ul class="nav">
 
         <li class="nav-item nav-profile">
@@ -12,7 +12,6 @@
                 </div>
             </a>
         </li>
-
 
         <li class="nav-item nav-category">Main Menu</li>
         <li class="nav-item">

@@ -2,7 +2,7 @@
 	<div>
 		<form @submit.prevent="store">
 			<div class="row">
-					
+
 					<div class="form-group col-12 col-md-6">
 						<label for="name">Name</label>
 						<input required v-model="item['name']" id="name" type="text" class="form-control" name="name">
@@ -64,7 +64,7 @@
 				  	</div>
 
 				  	<div class="form-group col-12 col-md-6">
-						<label for="number_1085">1085</label>
+						<label for="number_1085">10-20 (Address)</label>
 						<input v-model="item['number_1085']" id="number_1085" type="text" class="form-control" name="number_1085">
 				  	</div>
 
@@ -79,7 +79,7 @@
 				  	</div>
 
 				  	<div class="form-group col-12 col-md-6">
-						<label for="number_1084">1084</label>
+						<label for="number_1084">10-25 (Money)</label>
 						<input v-model="item['number_1084']" id="number_1084" type="text" class="form-control" name="number_1084">
 				  	</div>
 
@@ -134,7 +134,7 @@
 				  	</div>
 
 				  	<div class="form-group col-12 col-md-6">
-						<label for="rfb_no">RFB No.</label>
+						<label for="rfb_no">PR No.</label>
 						<input v-model="item['rfb_no']" id="rfb_no" type="text" class="form-control" name="rfb_no">
 				  	</div>
 
@@ -169,7 +169,7 @@
 </template>
 
 <script>
-	
+
 import Loader from '../loaders/Loader.vue';
 import ReponseMixin from '../../mixins/response.js';
 
@@ -187,7 +187,7 @@ export default {
 
 	methods: {
 		store(event) {
-			
+
 			if(this.loading) return;
 
 			let params = new FormData(event.target);

@@ -1,9 +1,10 @@
-<nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+<nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row no-print">
     <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html">
-            <img src="https://via.placeholder.com/170x38" alt="logo" /> </a>
+        <a class="navbar-brand brand-logo" href="{{  route('patients.index') }}">
+            {{-- <img src="https://via.placeholder.com/170x38" alt="logo" /> </a> --}}
+            <img style="width: 63px" src="/images/ronin.png" alt="logo" /> </a>
         <a class="navbar-brand brand-logo-mini" href="index.html">
-            <img src="https://via.placeholder.com/40x40" alt="logo" /> </a>
+            <img src="/images/ronin.png" alt="logo" /> </a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center">
         <!-- Settings Dropdown -->

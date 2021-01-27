@@ -33,12 +33,12 @@
             @include('layouts.navigation')
             <div class="page-body-wrapper">
                 @include('layouts.sidebar')
-                
+
                 <!-- partial -->
                 <div class="main-panel">
 
                     <div class="content-wrapper">
-                        @yield('content')    
+                        @yield('content')
                     </div>
 
                     @include('layouts.footer')
@@ -50,3 +50,16 @@
         </div>
     </body>
 </html>
+
+
+<style>
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+</style>

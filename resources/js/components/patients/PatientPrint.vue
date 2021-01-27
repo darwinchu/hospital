@@ -1,7 +1,24 @@
 <template>
 	<div>
 			<div class="row">
-					
+
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-3 text-right">
+                            <img width="50%" src="/images/ronin.png"  >
+                        </div>
+                        <div class="col-8 text-center">
+                            <h3 class="text-gray">Ronin Emergency Medical Services</h3>
+
+                            <p class="text-gray">
+                                Block 23 Lot 2 Gabriela St., New Capitol Estates I, Commonwealth, Quezon City.<br>
+                                Email: <u>ronin19ems@gmail.com</u> | Contact No: 0282878302<br>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
 				<div class="col-12 col-md-4">
 					<div class="row">
 						<div class="col-6">
@@ -82,7 +99,7 @@
 								<td>{{ item.gender ? item.gender : '-' }}</td>
 							</tr>
 							<tr>
-								<td>1085</td>
+								<td>10-20 (Address)</td>
 								<td>{{ item.number_1085 ? item.number_1085 : '-' }}</td>
 							</tr>
 							<tr>
@@ -94,7 +111,7 @@
 								<td>{{ item.refby ? item.refby : '-' }}</td>
 							</tr>
 							<tr>
-								<td>1084</td>
+								<td>10-25 (Money)</td>
 								<td>{{ item.number_1084 ? item.number_1084 : '-' }}</td>
 							</tr>
 							<tr>
@@ -138,7 +155,7 @@
 								<td>{{ item.rr_nurse ? item.rr_nurse : '-' }}</td>
 							</tr>
 							<tr>
-								<td>RFB NO.</td>
+								<td>PR NO.</td>
 								<td>{{ item.rfb_no ? item.rfb_no : '-' }}</td>
 							</tr>
 							<tr>
@@ -168,7 +185,7 @@
 </template>
 
 <script>
-	
+
 import Loader from '../loaders/Loader.vue';
 import ReponseMixin from '../../mixins/response.js';
 
@@ -212,3 +229,11 @@ export default {
 }
 
 </script>
+
+<style>
+
+.text-gray {
+    color: gray;
+}
+
+</style>
