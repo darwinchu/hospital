@@ -99,7 +99,7 @@
 								<td>{{ item.gender ? item.gender : '-' }}</td>
 							</tr>
 							<tr>
-								<td>10-20 (Address)</td>
+								<td>10-20</td>
 								<td>{{ item.number_1085 ? item.number_1085 : '-' }}</td>
 							</tr>
 							<tr>
@@ -111,7 +111,7 @@
 								<td>{{ item.refby ? item.refby : '-' }}</td>
 							</tr>
 							<tr>
-								<td>10-25 (Money)</td>
+								<td>10-25</td>
 								<td>{{ item.number_1084 ? item.number_1084 : '-' }}</td>
 							</tr>
 							<tr>

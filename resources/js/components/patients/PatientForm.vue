@@ -64,7 +64,7 @@
 				  	</div>
 
 				  	<div class="form-group col-12 col-md-6">
-						<label for="number_1085">10-20 (Address)</label>
+						<label for="number_1085">10-20</label>
 						<input v-model="item['number_1085']" id="number_1085" type="text" class="form-control" name="number_1085">
 				  	</div>
 
@@ -79,7 +79,7 @@
 				  	</div>
 
 				  	<div class="form-group col-12 col-md-6">
-						<label for="number_1084">10-25 (Money)</label>
+						<label for="number_1084">10-25</label>
 						<input v-model="item['number_1084']" id="number_1084" type="text" class="form-control" name="number_1084">
 				  	</div>
 
