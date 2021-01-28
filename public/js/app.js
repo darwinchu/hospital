@@ -8314,7 +8314,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.text-gray {\n    color: gray;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.text-gray {\r\n    color: gray;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -67112,7 +67112,7 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("tr", [
-                _c("td", [_vm._v("TD 1085")]),
+                _c("td", [_vm._v("TD 10-77")]),
                 _vm._v(" "),
                 _c("td", [
                   _vm._v(_vm._s(_vm.item.td_1085 ? _vm.item.td_1085 : "-"))
@@ -67132,7 +67132,7 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("tr", [
-                _c("td", [_vm._v("TL 1085")]),
+                _c("td", [_vm._v("TL 10-77")]),
                 _vm._v(" "),
                 _c("td", [
                   _vm._v(_vm._s(_vm.item.tl_1085 ? _vm.item.tl_1085 : "-"))
@@ -67174,7 +67174,7 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("tr", [
-                _c("td", [_vm._v("76 BREAK DOWN")]),
+                _c("td", [_vm._v("10-25 BREAK DOWN")]),
                 _vm._v(" "),
                 _c("td", [
                   _vm._v(
@@ -67186,7 +67186,7 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("tr", [
-                _c("td", [_vm._v("76 TBB")]),
+                _c("td", [_vm._v("10-25 TBB")]),
                 _vm._v(" "),
                 _c("td", [
                   _vm._v(_vm._s(_vm.item["76_tb"] ? _vm.item["76_tb"] : "-"))
@@ -67194,7 +67194,7 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("tr", [
-                _c("td", [_vm._v("76 SECURED")]),
+                _c("td", [_vm._v("10-25 SECURED")]),
                 _vm._v(" "),
                 _c("td", [
                   _vm._v(
@@ -67334,7 +67334,7 @@ var render = function() {
                     staticClass: "btn btn-success text-white",
                     attrs: { href: _vm.createUrl }
                   },
-                  [_vm._v("Create Patient")]
+                  [_vm._v("Add")]
                 )
               ]
             },

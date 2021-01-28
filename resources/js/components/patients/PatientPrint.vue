@@ -123,7 +123,7 @@
 								<td>{{ item.tl ? item.tl : '-' }}</td>
 							</tr>
 							<tr>
-								<td>TD 1085</td>
+								<td>TD 10-77</td>
 								<td>{{ item.td_1085 ? item.td_1085 : '-' }}</td>
 							</tr>
 							<tr>
@@ -135,7 +135,7 @@
 								<td>{{ item.cc ? item.cc : '-' }}</td>
 							</tr>
 							<tr>
-								<td>TL 1085</td>
+								<td>TL 10-77</td>
 								<td>{{ item.tl_1085 ? item.tl_1085 : '-' }}</td>
 							</tr>
 							<tr>
@@ -159,15 +159,15 @@
 								<td>{{ item.rfb_no ? item.rfb_no : '-' }}</td>
 							</tr>
 							<tr>
-								<td>76 BREAK DOWN</td>
+								<td>10-25 BREAK DOWN</td>
 								<td>{{ item['76_breakdown'] ? item['76_breakdown'] : '-' }}</td>
 							</tr>
 							<tr>
-								<td>76 TBB</td>
+								<td>10-25 TBB</td>
 								<td>{{ item['76_tb'] ? item['76_tb'] : '-' }}</td>
 							</tr>
 							<tr>
-								<td>76 SECURED</td>
+								<td>10-25 SECURED</td>
 								<td>{{ item['secured'] ? item['secured'] : '-' }}</td>
 							</tr>
 							<tr>

@@ -2,7 +2,7 @@
     <div>
         <filter-box hide-refresh @refresh="fetch">
             <template v-slot:left>
-                <a :href="createUrl" class="btn btn-success text-white">Create Patient</a>
+                <a :href="createUrl" class="btn btn-success text-white">Add</a>
             </template>
             <template v-slot:right>
                 <search-form
